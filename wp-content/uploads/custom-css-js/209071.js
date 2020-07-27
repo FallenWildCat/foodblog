@@ -5,6 +5,11 @@ const form = document.forms['google-sheet']
 
   form.addEventListener('submit', e => {
     e.preventDefault()
+    Swal.fire({
+      icon: 'success',
+      title: "I'll email you soon!"
+    })
+
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
