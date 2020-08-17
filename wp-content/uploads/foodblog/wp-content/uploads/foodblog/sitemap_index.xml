@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//infinity-static.midhunrk.com//wp-content/plugins/wordpress-seo-premium/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//infinity-static.midhunrk.com/wp-content/plugins/wordpress-seo-premium/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://infinity-static.midhunrk.com//post-sitemap.xml</loc>
+		<loc>https://infinity-static.midhunrk.com/post-sitemap.xml</loc>
 		<lastmod>2020-08-10T12:18:21+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://infinity-static.midhunrk.com//page-sitemap.xml</loc>
-		<lastmod>2020-08-11T07:31:25+00:00</lastmod>
+		<loc>https://infinity-static.midhunrk.com/page-sitemap.xml</loc>
+		<lastmod>2020-08-11T09:11:46+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://infinity-static.midhunrk.com//project-sitemap.xml</loc>
+		<loc>https://infinity-static.midhunrk.com/project-sitemap.xml</loc>
 	</sitemap>
 	<sitemap>
-		<loc>https://infinity-static.midhunrk.com//category-sitemap.xml</loc>
+		<loc>https://infinity-static.midhunrk.com/category-sitemap.xml</loc>
 		<lastmod>2020-08-10T12:18:21+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://infinity-static.midhunrk.com//author-sitemap.xml</loc>
+		<loc>https://infinity-static.midhunrk.com/author-sitemap.xml</loc>
 		<lastmod>2020-08-10T12:51:29+00:00</lastmod>
 	</sitemap>
 </sitemapindex>

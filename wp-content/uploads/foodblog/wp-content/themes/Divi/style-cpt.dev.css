@@ -2595,7 +2595,7 @@ body.logged-in:not(.et-fb) .et-db #et-boc .et-l .et_pb_newsletter.et_pb_login .e
 .et-db #et-boc .et-l .et_pb_column_1_2 .et_pb_map, .et-db #et-boc .et-l .et_pb_column_3_5 .et_pb_map, .et-db #et-boc .et-l .et_pb_column_3_8 .et_pb_map {height: 280px;}
 .et-db #et-boc .et-l .et_pb_column_1_3 .et_pb_map, .et-db #et-boc .et-l .et_pb_column_2_5 .et_pb_map, .et-db #et-boc .et-l .et_pb_column_1_4 .et_pb_map, .et-db #et-boc .et-l .et_pb_column_1_5 .et_pb_map, .et-db #et-boc .et-l .et_pb_column_1_6 .et_pb_map {height: 230px;}
 body .grecaptcha-badge {visibility: hidden;}
-body.et_pb_recaptcha_enabled .grecaptcha-badge {visibility: visible;visibility: initial;}
+body.et_pb_recaptcha_enabled .grecaptcha-badge {visibility: visible;visibility: initial;z-index: 9999;}
 .et-db #et-boc .et-l .et_pb_contact_form {margin-left: -3%;}
 .et-db #et-boc .et-l .et_pb_contact_form [data-conditional-logic] {display: none;}
 .et-db #et-boc .et-l p.et_pb_contact_field {padding: 0 0 0 3%;margin-bottom: 3%;background-position: center;background-size: cover;}

@@ -3,6 +3,7 @@
 #et_pb_layout .inside {border: 0;box-shadow: none;display: -ms-flexbox;display: flex;-ms-flex-direction: column-reverse;flex-direction: column-reverse;background-color: transparent;margin-top: 0;}
 body:not(.et-db) #et_pb_layout.closed .inside {display: none;}
 #et_pb_layout .hndle {box-shadow: 0 5px 30px rgba(0,0,0,.1);}
+#et_pb_layout .handle-actions {display: none;}
 #et_pb_layout.postbox #et_pb_main_container_right_click_overlay {box-shadow: 0 5px 30px rgba(0,0,0,.1);background-color: #fff;border-radius: 3px;}
 #et_pb_layout.postbox {border: none !important;box-shadow: none !important;background-color: transparent;animation: et_pb_fade_in_small .5s 1 cubic-bezier(.77,0,.175,1);}
 .et-bfb-optin-cta {box-sizing: border-box;position: relative;left: 0;background: #fff;box-shadow: 0 5px 30px rgba(0,0,0,.1);width: 100%;padding: 12px;border-radius: 3px;margin: 15px 0;z-index: 20;}
@@ -15,7 +16,7 @@ body:not(.et-db) #et_pb_layout.closed .inside {display: none;}
 body.rtl .et-bfb-optin-cta__button {float: left;}
 .et-bfb-optin-cta__button:hover {text-decoration: underline;color: #008bdb;}
 .et-builder-bfb-optin-modal .et_pb_prompt_buttons {margin: 0 0 -1px;}
-.et-bfb.mce-fullscreen #content-mid-wrap .mce-wp-dfw, .et-bfb.mce-fullscreen #wpadminbar {display: block;}
+.et-bfb.mce-fullscreen #wp-content-wrap .mce-wp-dfw, .et-bfb.mce-fullscreen #wpadminbar {display: block;}
 #et_pb_fb_cta, .et_pb_toggle_builder_wrapper #et_pb_toggle_builder {pointer-events: auto;animation: et_pb_fade_in_small .5s 1 cubic-bezier(.77,0,.175,1);margin: 4px 0 12px;margin: 0;transition: background .5s;background-color: #6c2eb9;color: #fff;box-shadow: none;box-shadow: 0 5px 10px rgba(43,135,218,.15);border: none;padding: 0 12px 0 46px;font-size: 14px;font-weight: 600;font-family: Open Sans,Helvetica,Roboto,Arial,sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;height: 40px;line-height: 40px;position: relative;text-shadow: none;transform: none !important;-webkit-box-shadow: 0 5px 10px rgba(43,135,218,.15);}
 #et_pb_toggle_builder {display: inline-block;}
 #et_pb_fb_cta {display: none;}
