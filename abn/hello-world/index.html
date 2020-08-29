@@ -319,30 +319,15 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.</p>
 
 		
 <script>
-  document.getElementById("et_pb_contact_productstt_0").setAttribute("readonly", "true");
-  
+document.getElementById("et_pb_contact_productstt_0").setAttribute("readonly", "true");  
 </script>
 	
-	<script type="text/javascript">
-document.getElementById("buttonm").addEventListener('click', function () {
-    
-    var h1=document.getElementById("prdct").getElementsByClassName("et_pb_module_inner")[0].getElementsByTagName('h1')[0];
-    var pnametext=h1.firstChild.textContent;
-	store = window.sessionStorage;
-    store.setItem("productNameText", pnametext);
-	
-});
-	
+<script type="text/javascript">
+document.getElementById("buttonm").addEventListener("click",function(){var e=document.getElementById("prdct").getElementsByClassName("et_pb_module_inner")[0].getElementsByTagName("h1")[0].firstChild.textContent;store=window.sessionStorage,store.setItem("productNameText",e)});	
 </script>
 
 <script>
-  document.getElementById("et_pb_contact_name_0").addEventListener('click', function dostuff(e) {
-e.currentTarget.removeEventListener(e.type, dostuff);  
-var pnametexts = sessionStorage.getItem("productNameText");
-var productname = document.getElementById('et_pb_contact_productstt_0');
-productname.value += pnametexts;
-
-  });
+document.getElementById("et_pb_contact_name_0").addEventListener("click",function e(t){t.currentTarget.removeEventListener(t.type,e);var n=sessionStorage.getItem("productNameText");document.getElementById("et_pb_contact_productstt_0").value+=n});
 </script>
 
 <script type="text/javascript">
