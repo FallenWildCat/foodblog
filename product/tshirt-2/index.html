@@ -273,7 +273,7 @@ var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"tshirt_
 							
 							<button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button">Submit</button>
 						</div>
-						<input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-0" name="_wpnonce-et-pb-contact-form-submitted-0" value="eb7237c3d7"><input type="hidden" name="_wp_http_referer" value="/abn/product/tshirt-2/">
+						<input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-0" name="_wpnonce-et-pb-contact-form-submitted-0" value="88de877fde"><input type="hidden" name="_wp_http_referer" value="/abn/product/tshirt-2/">
 					</form>
 				</div> 
 			</div> 
@@ -372,7 +372,10 @@ document.getElementById("et_pb_contact_name_0").addEventListener("click",functio
 </script>
 
 <script type="text/javascript">
-const scriptURL="https://script.google.com/macros/s/AKfycbwAfGwXi5Zm8tjTeRHialyr5r8AB-LtzxFR81R26N4yvpMGHJW_/exec",form=document.forms["5765624d696468756e"];var reg=/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/,email=document.getElementById("et_pb_contact_email_0");form.addEventListener("submit",e=>{if(e.preventDefault(),!reg.test(email.value))return Swal.fire({icon:"error",title:"Oops...",text:"Wrong Email!"}),email.focus,!1;Swal.fire({icon:"success",title:"I'll email you soon!"}),fetch(scriptURL,{method:"POST",body:new FormData(form)})});
+
+const scriptURL="https://script.google.com/macros/s/AKfycbwAfGwXi5Zm8tjTeRHialyr5r8AB-LtzxFR81R26N4yvpMGHJW_/exec",form=document.forms["5765624d696468756e"];var reg=/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/,email=document.getElementById("et_pb_contact_email_0"),namerrr=document.getElementById("et_pb_contact_name_0"),message=document.getElementById("et_pb_contact_message_0");form.addEventListener("submit",e=>(e.preventDefault(),""==email.value?(Swal.fire({icon:"error",title:"Oops...",text:"You left the email blank!"}),email.focus,!1):""==namerrr.value?(Swal.fire({icon:"error",title:"Oops...",text:"You left the name blank!"}),namerrr.focus,!1):""==message.value?(Swal.fire({icon:"error",title:"Oops...",text:"You left the message blank!"}),message.focus,!1):reg.test(email.value)?(Swal.fire({icon:"success",title:"I'll email you soon!"}),void fetch(scriptURL,{method:"POST",body:new FormData(form)})):(Swal.fire({icon:"error",title:"Oops...",text:"Invalid Email!"}),email.focus,!1)));
+
+
 </script>
 
 
@@ -458,7 +461,7 @@ var mailchimp_public_data = {"site_url":"https:\/\/PLACEHOLDER.wpsho","ajax_url"
 /* <![CDATA[ */
 var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
 var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
-var et_pb_custom = {"ajaxurl":"https:\/\/infinity-static.midhunrk.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"85d9a7432b","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"7002e713fd","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"661","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/infinity-static.midhunrk.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"11378e8ad7","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"ec57dede3d","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"661","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
 var et_pb_box_shadow_elements = [];
 var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
 var et_pb_sticky_elements = [];
