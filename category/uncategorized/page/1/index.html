@@ -244,7 +244,13 @@ var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"hello_w
 
 	</div> 
 
-		<script type="text/javascript">
+		
+<script>
+  document.getElementById("et_pb_contact_productstt_0").setAttribute("readonly", "true");
+  
+</script>
+	
+	<script type="text/javascript">
 document.getElementById("buttonm").addEventListener('click', function () {
     
     var h1=document.getElementById("prdct").getElementsByClassName("et_pb_module_inner")[0].getElementsByTagName('h1')[0];
@@ -254,6 +260,16 @@ document.getElementById("buttonm").addEventListener('click', function () {
 	
 });
 	
+</script>
+
+<script>
+  document.getElementById("et_pb_contact_name_0").addEventListener('click', function dostuff(e) {
+e.currentTarget.removeEventListener(e.type, dostuff);  
+var pnametexts = sessionStorage.getItem("productNameText");
+var productname = document.getElementById('et_pb_contact_productstt_0');
+productname.value += pnametexts;
+
+  });
 </script>
 
 <script type="text/javascript">
@@ -298,7 +314,7 @@ var mailchimp_public_data = {"site_url":"https:\/\/PLACEHOLDER.wpsho","ajax_url"
 /* <![CDATA[ */
 var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
 var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
-var et_pb_custom = {"ajaxurl":"https:\/\/infinity-static.midhunrk.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"65212ee351","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"dd6fdd5e70","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"1","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/infinity-static.midhunrk.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/infinity-static.midhunrk.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"85d9a7432b","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"7002e713fd","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"1","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
 var et_pb_box_shadow_elements = [];
 var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
 var et_pb_sticky_elements = [];
